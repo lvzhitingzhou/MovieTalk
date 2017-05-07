@@ -21,7 +21,7 @@ import styles from '../style/main'
 
 const REQUEST_URL = 'http://api.douban.com/v2/movie/in_theaters';
 
-export default class MovieList extends Component {
+export default class USBox extends Component {
     constructor(props) {
         super(props);
         this.state = {

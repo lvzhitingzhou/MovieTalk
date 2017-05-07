@@ -14,6 +14,7 @@ import {
 } from 'react-native';
 
 import MovieList from './app/Component/MovieList'
+import USBox from './app/Component/USBox'
 
 export default class MovieTalk extends Component {
     constructor(props) {
@@ -22,7 +23,7 @@ export default class MovieTalk extends Component {
 
     render() {
         return (
-            <MovieList/>
+            <USBox/>
         );
     }
 }
